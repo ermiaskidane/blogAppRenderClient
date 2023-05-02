@@ -1,0 +1,33 @@
+.searchInput {
+  display: flex;
+  justify-content: center;
+
+  @media only screen and (max-width: 960px) {
+    margin: auto;
+  }
+
+  @media only screen and (max-width: 500px) {
+    width: 100%;
+  }
+
+  &--box {
+    outline: none;
+    // border: 1px solid #fff;
+    padding-left: 6px;
+    border: none;
+    border-radius: 3px;
+
+    @media only screen and (max-width: 500px) {
+      width: 60%;
+    }
+  }
+
+  input::placeholder {
+    color: #6e6969;
+    padding-left: 6px;
+  }
+
+  button {
+    margin-left: 0.5rem;
+  }
+}

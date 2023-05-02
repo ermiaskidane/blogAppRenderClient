@@ -1,0 +1,70 @@
+.sign-up,
+.sign-in {
+  background-image: url("../../assets/images/img-8.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  height: 90vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* color: #252e48; */
+}
+
+.signUp--title,
+.signIn--title {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+form {
+  font-size: 2rem;
+  width: 40vw;
+}
+
+.sign-up .form--name,
+.sign-up .form--email,
+.sign-up .form--password,
+.sign-up .form--confirmPassword,
+.sign-in .form--name,
+.sign-in .form--email,
+.sign-in .form--password,
+.sign-in .form--confirmPassword {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+input::placeholder {
+  color: #6e6969;
+}
+.form--name input[type="text"],
+.form--email input[type="email"],
+.form--password input[type="password"],
+.form--confirmPassword input[type="Password"] {
+  padding: 9px 6px;
+  margin-bottom: 0.8rem;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.signup--row,
+.signIn--row {
+  margin-top: 0.8rem;
+  font-size: 16px;
+  width: 40vw;
+}
+a {
+  text-decoration: none;
+  color: #1a1818;
+  padding-left: 4px;
+}

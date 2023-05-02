@@ -1,0 +1,23 @@
+.pagination {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2.5rem;
+
+  & a {
+    text-decoration: none;
+    padding: 0.5rem 0.7rem;
+    margin-right: 0.5rem;
+    align-self: center;
+  }
+
+  & a:hover,
+  & a:active {
+    background: black;
+    color: #fff;
+  }
+
+  p {
+    text-align: end;
+    padding-bottom: 0;
+  }
+}
